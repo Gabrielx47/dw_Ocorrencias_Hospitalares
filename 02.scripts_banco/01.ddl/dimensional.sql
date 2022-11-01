@@ -19,8 +19,7 @@ CREATE TABLE DIM_MEDICO (
    ESPECIALIDADE VARCHAR(100) NOT NULL
 )
 
--- Apenas por questão didática. O número de linhas da dimensão
--- não justica a criação de índices.
+
 CREATE INDEX IX_DIM_MEDICO_COD_MEDICO ON DIM_MEDICO(COD_MEDICO)
 
 CREATE TABLE DIM_PACIENTE (
