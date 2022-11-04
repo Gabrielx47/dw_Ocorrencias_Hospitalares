@@ -202,20 +202,35 @@
 											"top": 171,
 											"width": 143.55712890625,
 											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGERMiCGEi6BCE=",
+											"_parent": {
+												"$ref": "AAAAAAGEFsjtSKvzdWw="
+											},
+											"model": {
+												"$ref": "AAAAAAGERMiCAki3vF0="
+											},
+											"font": "Arial;13;0",
+											"left": 45,
+											"top": 186,
+											"width": 143.55712890625,
+											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 40,
 									"top": 31,
 									"width": 153.55712890625,
-									"height": 158
+									"height": 173
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 40,
 							"top": 8,
 							"width": 153.55712890625,
-							"height": 181,
+							"height": 196,
 							"nameLabel": {
 								"$ref": "AAAAAAGEFsjtSKvyPA0="
 							},
@@ -1087,7 +1102,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 155,
-									"top": 207,
+									"top": 222,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -1121,7 +1136,7 @@
 								"$ref": "AAAAAAGEFsjtR6vxxfs="
 							},
 							"lineStyle": 2,
-							"points": "140:188;140:272;272:272",
+							"points": "140:203;140:272;272:272",
 							"nameLabel": {
 								"$ref": "AAAAAAGEFtfD460MBh8="
 							},
@@ -1665,6 +1680,15 @@
 								"$ref": "AAAAAAGEFsjtRavvpN8="
 							},
 							"name": "Nome_do_trimestre",
+							"length": 0
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGERMiCAki3vF0=",
+							"_parent": {
+								"$ref": "AAAAAAGEFsjtRavvpN8="
+							},
+							"name": "Nivel",
 							"length": 0
 						}
 					]
