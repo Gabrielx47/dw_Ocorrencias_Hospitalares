@@ -4,6 +4,6 @@ begin
 
     
 	insert into tb_aux_hospital
-	select @data_carga, cod_hospital, nome, rua, bairro, cidade
+	select @dataCarga, cod_hospital, nome, rua, bairro, cidade
 	from tb_hospital
 end
