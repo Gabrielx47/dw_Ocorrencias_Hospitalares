@@ -3,6 +3,6 @@ as
 begin
 
 	insert into tb_aux_paciente
-	select @data_carga, cod_paciente, nome, cpf, rua, bairro, cidade, data_nascimento, sexo
+	select @dataCarga, cod_paciente, nome, cpf, rua, bairro, cidade, data_nascimento, sexo
 	from tb_paciente
 end
