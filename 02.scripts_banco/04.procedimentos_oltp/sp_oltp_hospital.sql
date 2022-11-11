@@ -3,6 +3,6 @@ as
 begin
 	insert into tb_aux_hospital
 	-- CNPJ = COD_HOSPITAL
-	select @data_carga, CNPJ, nome, rua, bairro, cidade
+	select @datacarga, CNPJ, nome, rua, bairro, cidade
 	from tb_hospital
 end
