@@ -1,6 +1,6 @@
 -- Scripts ddl para o ambiente operacional
 
-use dw_ocorencias_hospitalares
+use dw_ocorrencias_hospitalares
 
 DROP TABLE IF EXISTS TB_OCORRENCIA
 DROP TABLE IF EXISTS TB_HOSPITAL
