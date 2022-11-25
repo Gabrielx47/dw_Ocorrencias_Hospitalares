@@ -3,5 +3,9 @@ use dw_ocorrencias_hospitalares
 create or alter sp_povoar_operacional
 as
 BEGIN
-	
+	-- Inseridos dados na tabela TB_OCORRENCIA
+	INSERT INTO TB_OCORRENCIA(COD_OCORRENCIA, DT_DATA, CRM, CNPJ, COD_SUS)
+	VALUES(1, GETDATE(), 123,123, 1)
+	INSERT INTO TB_OCORRENCIA(COD_OCORRENCIA, DT_DATA, CRM, CNPJ, COD_SUS)
+	VALUES(2, GETDATE(), 124,124, 2)
 END
