@@ -13,9 +13,9 @@ BEGIN
 	DELETE TB_PACIENTE
 	INSERT INTO TB_PACIENTE (COD_SUS, NOME,CPF, RUA, BAIRRO, CIDADE, UF, SEXO, DATA_NASCIMENTO)
 	VALUES(1,'Mônica Ferreira', '813.123.375-83', 'R. Itabaina', 'Centro', 'Moita Bonita', 'SE', 'F', '1995-02-10'),
-		  (2,'Fernando Bezerra', '105.805.375-28', 'R. Domingos Francisco da Costa', 'Centro', 'Moita Bonita', 'SE', 'F', '2019-02-11'),
+		  (2,'Fernando Bezerra', '105.805.375-28', 'R. Domingos Francisco da Costa', 'Centro', 'Moita Bonita', 'SE', 'M', '2019-02-11'),
 		  (3,'Letícia Araújo', '857.912.255-47', 'Av. Dr. Luiz Magalhães', 'Centro', 'Itabaiana', 'SE', 'F', '2008-05-16'),
-		  (4,'José Alves da Silva', '308.270.555-36', 'R. 28 de Agosto', 'Centro', 'Itabaiana', 'SE', 'F', '1960-10-10')
+		  (4,'José Alves da Silva', '308.270.555-36', 'R. 28 de Agosto', 'Centro', 'Itabaiana', 'SE', 'M', '1960-10-10')
 
 	-- Inseridos dados na tabela TB_MEDICO
 	DELETE TB_MEDICO
