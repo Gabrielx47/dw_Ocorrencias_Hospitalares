@@ -85,7 +85,7 @@ begin
 end
 
 --Testes
-exec sp_dim_tempo '20220101', '20220630'
+exec sp_dim_tempo '20220601', '20221231'
 
 select * from DIM_TEMPO
 delete DIM_TEMPO

@@ -1,1 +1,1 @@
-create database dw_ocorencias_hospitalares
+create database dw_ocorrencias_hospitalares
